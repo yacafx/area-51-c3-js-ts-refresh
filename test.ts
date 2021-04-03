@@ -10,7 +10,7 @@ const user: User = {
   name: 'Sergio',
   lastName: 'Brito',
   age: 20,
-  status: true,
+  status: true
 };
 
 const fullName = _.concat(user.name, user.lastName);
