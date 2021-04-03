@@ -5,12 +5,17 @@
   "main": "test.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "ts::compile:run": "tsc test.ts && node ."
+    "ts::compile:run": "tsc test.ts && node .",
+    "format:check": "prettier --check .",
+    "format:do": "prettier --write ."
   },
   "keywords": [],
   "author": "@yacaFx",
   "license": "ISC",
   "dependencies": {
     "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "prettier": "2.2.1"
   }
 }
