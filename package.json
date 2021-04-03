@@ -1,0 +1,16 @@
+{
+  "name": "js-ts-refresh",
+  "version": "0.0.1",
+  "description": "",
+  "main": "test.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "ts::compile:run": "tsc test.ts && node ."
+  },
+  "keywords": [],
+  "author": "@yacaFx",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}
