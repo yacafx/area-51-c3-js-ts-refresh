@@ -1,4 +1,5 @@
 import * as _ from 'lodash';
+
 interface User {
   name: string;
   lastName: string;
@@ -14,6 +15,6 @@ const user: User = {
 };
 
 const fullName = _.concat(user.name, user.lastName);
-console.log('User ::: ', user);
-console.log('fullName ::: ', fullName);
-console.log('Date ::: ', _.now());
+// console.log('User ::: ', user);
+// console.log('fullName ::: ', fullName);
+// console.log('Date ::: ', _.now());
